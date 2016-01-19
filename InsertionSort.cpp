@@ -7,7 +7,6 @@ This implementation of insertion sort will sort in ascending order (0, 1, 2,...,
 */
 
 #include<iostream>
-#include<cmath>
 using namespace std;
 
 int main(){
@@ -25,10 +24,10 @@ int main(){
   }
 
     //Create an array for numbers
-  int arr[(int)numInputs];
+  int arr[numInputs];
 
   //Populate and check array
-  for(int i = 0; i < (int)numInputs; i++){
+  for(int i = 0; i < numInputs; i++){
     if(!(cin >> arr[i])){
       cout << "ERROR: Inputs must be of type 'int'\n";
       return -4;
